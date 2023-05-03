@@ -177,7 +177,7 @@ mv predict_result.json dataset/RIT-HS20/annotationsjson/
 
 filter for pseudo labels and conduct the second round of model training using the expanded dataset
 
-1. Run `tools/pseudo1.py		` and `tools/pseudo2.py` to filter pseudo labels
+1. Run `tools/pseudo1.py` and `tools/pseudo2.py` to filter pseudo labels
 
 ```shell
 python tools/pseudo1.py		
